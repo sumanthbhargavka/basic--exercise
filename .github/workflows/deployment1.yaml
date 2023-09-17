@@ -1,8 +1,6 @@
 name: Deployment 1
 on: push
 jobs:
-  lint:
-    runs-on: ubuntu-latest
   deploy:
     runs-on: ubuntu-latest
     steps:
